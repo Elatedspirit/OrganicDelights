@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/Css/sstyle.css">
+        <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    </head>
+    <style>
+        .background {
+        background-image: url('assets/images/index.jpeg'); /* Specify the URL of your background image */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* This keeps the background image fixed */
+        height: 100vh; /* Adjust the height according to your needs */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white; /* Set the color of text to be visible on the background image */
+        text-align: center;
+        height: 500px;
+      }
+    </style>
+<body>
+<!--Navbar-->
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+</section>
+<!--MAin Section-->
+<section>
+    <div class="background">
+        <h1>Contact Us</h1>
+    </div>
+    <div class="container m">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card ca">
+              <div class="card-body">
+                <p class="d text-center">
+                    Expert Assistance
+                </p>
+                <p class="text-center">
+                    Get personalized solutions from our knowledgeable team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card ca">
+              <div class="card-body">
+                <p class="d text-center">
+                    Swift Resolution
+                </p>
+                <p class="text-center">
+                    We address your queries promptly and efficiently.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card ca">
+              <div class="card-body">
+                <p class="d text-center">
+                    Tailored Support
+                </p>
+                <p class="text-center">
+                    Customized guidance to meet your unique needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+<!--Form-->
+<section class="container mt-lg-4 pt-lg-4">
+    <h1 class="text-center AC mb-lg-3">
+        Feel free to reach out—we’re here to help! 
+    </h1>
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="assets/images/logo.png" class="w-100 mt-lg-4" alt="logo">
+                    </div>
+                    <div class="col-lg-8">
+                        <form action="submit_form.php" method="post">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" value="Submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
